@@ -1,0 +1,31 @@
+{
+	"name": "@65911/pigeon-maps",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Open Source GitHub Project",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"@65911/pigeon-maps"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"dependencies": {
+		"@servicenow/cli-archetype": "23.0.0",
+		"@servicenow/cli-component-archetype": "23.0.0",
+		"@servicenow/library-translate": "quebec",
+		"@servicenow/sass-kit": "quebec",
+		"@servicenow/sass-theme": "quebec",
+		"@servicenow/ui-core": "quebec",
+		"@servicenow/ui-renderer-snabbdom": "quebec",
+		"pigeon-maps": "^0.21.3"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "23.0.0",
+		"@servicenow/cli-component-archetype-dev": "23.0.0"
+	}
+}
